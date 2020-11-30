@@ -1,10 +1,23 @@
 ---
 layout: comments
 ---
+{% if page.BGImage  %}
+<style>
+  .wrap {
+    transition-property: width,background-size,transform;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
+    min-height: 100%;
+    display: inline-block;
+    background-size: cover;
+    background-position: 0% 0%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url({{ page.BGImage }});
+  }
+</style>
+{% endif %}
 <div class="post">
-	{% if page.jekyll-theme-WuK.background_image %}
-    {{ page.jekyll-theme-WuK.background_image }}
-    {% endif %}
   <span class="post-date">
     {% if page.jekyll-theme-WuK.post.date.enable %}
     {{ page.jekyll-theme-WuK.post.date.prepend }}
