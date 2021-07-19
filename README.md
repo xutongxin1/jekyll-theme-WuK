@@ -1,7 +1,3 @@
----
-title: Home
----
-
 ## Quick Start
 
 感谢使用我的博客主题，下面跟随一些简单操作快速生成你的站点/文档/展示页面吧~无需命令行~
@@ -26,7 +22,7 @@ title: Home
 
 <!-- .slide vertical=true -->
 
-![step.2](/docs/2.webp)
+![TW9GSNUkfv6lsyr8Xh1qKaRjwD](https://i.loli.net/2020/12/01/P61UlGcjqHSNXwa.png)
 
 <!-- .slide vertical=true -->
 
@@ -36,11 +32,11 @@ title: Home
 
 <!-- .slide vertical=true -->
 
-![step.3.4](/docs/3.4.webp)
+![csFVmdQfKTP4SWApE9DOkMwhZt](https://i.loli.net/2020/12/01/zsLxQVYU2dj3yEa.png)
 
 <!-- .slide vertical=true -->
 
-![step.3.5](/docs/3.5.webp)
+![2t96cfb85yDwxeAn3XLPmkrI1U](https://i.loli.net/2020/12/01/yTc6mozNvGru92p.png)
 
 <!-- .slide vertical=true -->
 
@@ -54,15 +50,15 @@ title: Home
 
 <!-- .slide vertical=true -->
 
-![step.4.1](/docs/4.1.webp)
+![4.1.png](https://i.loli.net/2020/12/01/t7hOkr5LVpZfEn3.png)
 
 <!-- .slide vertical=true -->
 
-![step.4.2](/docs/4.2.webp)
+![4.2.png](https://i.loli.net/2020/12/01/paufLrzkVhZenFJ.png)
 
 <!-- .slide vertical=true -->
 
-![step.4.3](/docs/4.3.webp)
+![4.3.png](https://i.loli.net/2020/12/01/7i5uEYPHS2Ljts4.png)
 
 <!-- .slide vertical=true -->
 
@@ -76,7 +72,7 @@ title: Home
 
 <!-- .slide vertical=true -->
 
-![step.5.1](/docs/5.1.webp)
+![5.1.png](https://i.loli.net/2020/12/01/Jm784WbjACLtdOP.png)
 
 <!-- .slide vertical=true -->
 
@@ -84,7 +80,7 @@ title: Home
 
 <!-- .slide vertical=true -->
 
-![step.5.2](/docs/5.2.webp)
+![5.2.png](https://i.loli.net/2020/12/01/THowcQnNLFRJx7C.png)
 
 <!-- .slide vertical=true -->
 
@@ -116,7 +112,7 @@ title: Home
 
 <!-- .slide vertical=true -->
 
-![Demo](./screenshot.png)
+![Demo](https://wu-kan.github.io/jekyll-theme-WuK/screenshot.png)
 
 <!-- .slide -->
 
@@ -138,26 +134,6 @@ title: Home
 
 <!-- .slide vertical=true -->
 
-### `layout: archive`
-
-基于`layout: page`的归档页。
-
-示例：<https://wu-kan.cn/archive/>
-
-当前我对它不是很满意，可能会在以后的版本中修改。
-
-<!-- .slide vertical=true -->
-
-### `layout: tags`
-
-基于`layout: page`的标签页。
-
-示例：<https://wu-kan.cn/tags/>
-
-当前我对它不是很满意，可能会在以后的版本中修改。
-
-<!-- .slide vertical=true -->
-
 ### `layout: comments`
 
 基于`layout: page`的留言页，留言插件使用了[Valine](https://valine.js.org/)。
@@ -171,14 +147,6 @@ title: Home
 基于`layout: comments`的博文页，为每篇博文增加描述信息。
 
 示例：[基于 Jekyll 搭建个人博客](https://wu-kan.cn/_posts/2019-01-18-%E5%9F%BA%E4%BA%8EJekyll%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/)
-
-<!-- .slide vertical=true -->
-
-### `layout: page404`
-
-基于[腾讯志愿者](http://e.t.qq.com/Tencent-Volunteers)的公益 404 页。
-
-示例：<https://wu-kan.cn/404>
 
 <!-- .slide vertical=true -->
 
@@ -206,9 +174,9 @@ title: Home
 
 如果你希望使用它来渲染主页之外的页面，可以在你的 markdown 的 yaml 头中设置`layout: home`即可！当然，如果你不希望使用它来渲染主页，你也可以将主页的 layout 设置成其他的。
 
-想针对特定页面默认开启侧边栏？在 yaml 头中设置`jekyll-theme-WuK: sidebar_open: true`即可！
+想针对特定页面默认开启侧边栏？在 yaml 头中设置`jekyll-theme-WuK: default: sidebar: open: true`即可！
 
-想针对特定页面隐藏侧边栏？在 yaml 头中设置`jekyll-theme-WuK: sidebar_disable: true`即可！会覆盖`sidebar_open`的设置。
+想针对特定页面隐藏侧边栏？在 yaml 头中设置`jekyll-theme-WuK: default: sidebar: disable: true`即可！会覆盖`sidebar: open`的设置。
 
 <!-- .slide vertical=true -->
 
@@ -276,7 +244,7 @@ CDN 加速服务来自于<https://cdn.jsdelivr.net/>和<https://loli.net>，感�
 
 <!-- .slide vertical=true -->
 
-留言和阅读量系统来自于[Valine](https://valine.js.org/)和[LeanCloud](https://leancloud.cn/)，感谢。
+评论系统来自于[utterance/utterances](https://github.com/utterance/utterances)，感谢。
 
 页面统计来自于[不蒜子](http://busuanzi.ibruce.info/)，感谢。
 
@@ -294,7 +262,7 @@ Live2D Model 来自于[imuncle/live2d](https://github.com/imuncle/live2d)和[xia
 
 <!-- .slide vertical=true -->
 
-头像、壁纸来自于<https://www.pixiv.net/artworks/72096124>、<https://www.pixiv.net/artworks/71932901>和<https://www.pixiv.net/artworks/74559485>，感谢（侵权必删）。
+头像、壁纸来自于<https://www.pixiv.net/artworks/71574257>、<https://www.pixiv.net/artworks/71932901>和<https://www.pixiv.net/artworks/74559485>，感谢（侵权必删）。
 
 头像翻转效果受启发自[leopardpan/leopardpan.github.io](https://github.com/leopardpan/leopardpan.github.io)，感谢。
 
@@ -304,14 +272,45 @@ Live2D Model 来自于[imuncle/live2d](https://github.com/imuncle/live2d)和[xia
 
 <!-- .slide vertical=true -->
 
-### 2020-09.15 v4.0.2
+### 2021-06-07 v4.1.0
+
+- 对主题进行精简，去掉
+  - layout: archive
+  - layout: tags
+  - layout: page404
+- 配合 jekyll-redirect-from 模板，增加
+  - layout: redirect
+- 使用[utterances](https://github.com/utterance/utterances)代替 valine
+
+<!-- .slide vertical=true -->
+
+### 2021-06-03 v4.0.5
+
+- 一些页面选项的增强
+  - 可直接从前一个版本升级
+
+<!-- .slide vertical=true -->
+
+### 2021-05-23 v4.0.4
+
+- 后端实现精简，去掉主页部分
+
+<!-- .slide vertical=true -->
+
+### 2021-01-10 v4.0.3
+
+- document 样式更新，渲染成类似于 $\LaTeX$ 的样式
+
+<!-- .slide vertical=true -->
+
+### 2020-09-15 v4.0.2
 
 - 侧边栏增加 [minivaline-counter](https://github.com/MiniValine/minivaline-counter) 的可选功能
   - 可用于替代不蒜子计数器，修复两个计数器数量不一致的问题
 
 <!-- .slide vertical=true -->
 
-### 2020-07.23 v4.0.1
+### 2020-07-23 v4.0.1
 
 - 修复使用 rouge 并开启代码行号时使用[jekyll-compress-html](https://github.com/penibelst/jekyll-compress-html)导致渲染错误的问题
 - 修复 `search.json` 失效的问题
@@ -320,7 +319,7 @@ Live2D Model 来自于[imuncle/live2d](https://github.com/imuncle/live2d)和[xia
 
 <!-- .slide vertical=true -->
 
-### 2020-06.21 v4.0.0
+### 2020-06-21 v4.0.0
 
 - 将所有主题配置变量移动到 [front-matter-defaults](https://jekyllrb.com/docs/configuration/front-matter-defaults/)，从而使得所有页面可以自定义配置
 - 标签页、归档页增加一个目录（可选）
